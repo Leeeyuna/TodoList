@@ -1,0 +1,23 @@
+.todo-frm {
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+.todo-frm > * {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+.todo-frm > input {
+  border: 1px solid #ccc;
+  width: 80%;
+}
+.todo-frm > button {
+  width: 20%;
+  border: 1px solid #396afc;
+  background-color: #396afc;
+  color: #fff;
+}
